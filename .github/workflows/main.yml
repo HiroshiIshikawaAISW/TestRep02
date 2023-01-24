@@ -27,7 +27,7 @@ jobs:
 
       # Run Setup JFrog CLI
       - name: Setup JFrog CLI
-        uses: jflog/setup-jfrog-cli@v3
+        uses: jfrog/setup-jfrog-cli@v3
 
       # Run --version
       - name: Check versions
