@@ -27,11 +27,7 @@ jobs:
 
       # Run Setup JFrog CLI
       - name: Setup JFrog CLI
-        uses: /setup-jfrog-cli@v3
-        with:
-         url: "https://artifactory-ha.tmc-stargate.com"
-         credentials type: 'apikey'
-         apikey: ${{ secrets.artifactory_token_1 }}
+        uses: jflog/setup-jfrog-cli@v3
 
       # Run --version
       - name: Check versions
